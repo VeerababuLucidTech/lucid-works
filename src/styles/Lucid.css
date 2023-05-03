@@ -1,0 +1,190 @@
+/* Lucid Font Sizes */
+
+.l-fs-10 {
+  font-size: 10px !important;
+}
+
+.l-fs-10 {
+  font-size: 10px !important;
+}
+
+.l-fs-10 {
+  font-size: 10px !important;
+}
+
+.l-fs-10 {
+  font-size: 10px !important;
+}
+
+.l-fs-10 {
+  font-size: 10px !important;
+}
+
+.l-fs-12 {
+  font-size: 12px !important;
+}
+
+.l-fs-14 {
+  font-size: 14px !important;
+}
+
+.l-fs-16 {
+  font-size: 16px !important;
+}
+
+.l-fs-18 {
+  font-size: 18px !important;
+}
+
+.l-fs-20 {
+  font-size: 20px !important;
+}
+
+.l-fs-22 {
+  font-size: 22px !important;
+}
+
+/* Lucid Font Weights */
+
+.l-fw-500 {
+  font-weight: 500 !important;
+}
+
+.l-fw-600 {
+  font-weight: 600 !important;
+}
+
+.l-fw-700 {
+  font-weight: 700 !important;
+}
+
+/* Lucid Font Colors */
+.l-color-orange {
+  color: #ff8634 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.dropdown-item a {
+  display: block;
+  width: 100%;
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+  clear: both;
+  font-weight: 400;
+  color: var(--bs-dropdown-link-color);
+  color: black !important;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+
+}
+
+.dropdown-item a:hover {
+  color: black !important;
+}
+
+.dropdown-toggle::after {
+  /* display: none !important; */
+  visibility: hidden !important;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+/* =============================================== */
+.l-text-center {
+  text-align: center !important;
+}
+
+.l-width-70 {
+  width: 70% !important;
+}
+
+.l-width-75 {
+  width: 75% !important;
+}
+
+.l-width-80 {
+  width: 80% !important;
+}
+
+.l-width-100 {
+  width: 100% !important;
+}
+
+.lucid-bg {
+  background-color: #f5f6fa !important;
+
+}
+
+.sidebar {
+  background: #ffffff;
+  height: 100vh;
+  transition: all 0.5s;
+  background: #ffffff;
+  color: #6e6969;
+  width: auto;
+  transition: all 0.5s;
+  border-right: 1px solid #e4e6ed;
+}
+
+/* Lucid Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 480px) {
+  
+} */
+/* @media only screen and (max-width: 600px) {
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+} */
+
+/* =====================================  Lucid Media Queries ===================================== */
+
+/* 320px — 480px: Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .l-width-75 {
+    width: 80% !important;
+  }
+
+  .sidebar {
+    height: 100vh;
+  }
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {}
+
+/* 769px — 1024px: Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/* 1025px — 1200px: Desktops, large screens */
+@media (min-width: 1025x) and (max-width: 1200px) {}
+
+/* 1201px and more —  Extra large screens, TV  */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
